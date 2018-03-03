@@ -1,0 +1,189 @@
+/* 登录-注册样式 */
+/* 遮罩层 */
+.ui-login-register-topLayer{
+	width: 100%;
+	height: 100%;
+	background:#000;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	display: none;
+	z-index: 9999;
+}
+/* 登录层 */
+.ui-loginWrap{
+	width: 400px;
+	height: 440px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	background:#fff; 
+	padding:30px; 
+	box-sizing: border-box;
+	display: none;
+	z-index: 10000;
+}
+.ui-loginWrap .ui-loginWrap-title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.ui-loginWrap .ui-loginWrap-title .btn{
+	float: left;
+	margin-right: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.ui-loginWrap .ui-loginWrap-title .btn-active{
+	border-bottom: 1px solid red;
+	color: red;
+}
+.ui-loginWrap .ui-loginWrap-title .close{
+	float: right;
+	font-size: 30px;
+	color: #666;
+	margin-top: -5px;
+	cursor: pointer;
+}
+.ui-loginWrap .ui-loginWrap-form input{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.ui-loginWrap .ui-loginWrap-form div{
+	margin-top: 10px;
+	line-height: 20px;
+	height: 20px;
+	color: #666;
+}
+.ui-loginWrap .ui-loginWrap-form div .checkbox{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top:0;
+}
+.ui-loginWrap .ui-loginWrap-form div a{
+	float: right;
+}
+.ui-loginWrap .ui-loginWrap-form .submit{
+	background:red;
+	color: #fff;
+	font-size: 17px;
+	cursor: pointer;
+}
+.ui-loginWrap .ui-loginWrap-icons{
+	margin: 30px auto;
+	height: 35px;
+	width: 195px;
+}
+.ui-loginWrap .ui-loginWrap-icons .icon{
+	background: #999;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 35px;
+	margin:0 15px; 
+	float: left;
+	cursor: pointer;
+}
+.ui-loginWrap .ui-loginWrap-icons .icon:hover{
+	background: #12E41A;
+}
+span.ui-login-register-error{
+	color: red;
+	display: block;
+	position: relative;
+	top:-9999px;
+}
+/* 注册层 */
+.ui-registerWrap{
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	background:#fff; 
+	padding:30px; 
+	box-sizing: border-box;
+	display: none;
+	z-index: 10000;
+}
+.ui-registerWrap .ui-registerWrap-title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.ui-registerWrap .ui-registerWrap-title .btn{
+	float: left;
+	margin-right: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.ui-registerWrap .ui-registerWrap-title .btn-active{
+	border-bottom: 1px solid red;
+	color: red;
+}
+.ui-registerWrap .ui-registerWrap-title .close{
+	float: right;
+	font-size: 30px;
+	color: #666;
+	margin-top: -5px;
+	cursor: pointer;
+}
+.ui-registerWrap .ui-registerWrap-form input{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.ui-registerWrap .ui-registerWrap-form .safeCode{
+	width: 70%;
+	float: left;
+}
+.ui-registerWrap .ui-registerWrap-form img{
+	height: 50px;
+	width: 70px;
+	box-sizing: border-box;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.ui-registerWrap .ui-registerWrap-form .submit{
+	background:red;
+	color: #fff;
+	font-size: 17px;
+	cursor: pointer;
+}
+.ui-registerWrap .ui-registerWrap-icons{
+	margin: 30px auto;
+	height: 35px;
+	width: 195px;
+}
+.ui-registerWrap .ui-registerWrap-icons .icon{
+	background: #999;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 35px;
+	margin:0 15px; 
+	float: left;
+	cursor: pointer;
+}
+.ui-registerWrap .ui-registerWrap-icons .icon:hover{
+	background: #12E41A;
+}

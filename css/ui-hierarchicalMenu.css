@@ -1,0 +1,10 @@
+/* 二级层次菜单 */
+/* ui-mainMenu 主菜单类名 */
+/* ui-subMenu 子菜单类名 */
+.ui-mainMenu:hover{
+	background: #fff;
+	color: red;
+}
+.ui-mainMenu:hover > .item-detail{
+	display: block!important;
+}

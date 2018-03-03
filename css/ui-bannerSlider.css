@@ -1,0 +1,70 @@
+/* 轮播图样式 */
+.ui-bannerSlider{
+	position: relative;
+}
+.ui-bannerSlider > .ui-bannerSlider-item{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.ui-bannerSlider > .ui-bannerSlider-item > img{
+	width: 100%;
+	height: 100%;
+}
+.ui-bannerSlider > .ui-bannerSlider-active{
+	display: block;
+}
+/* banner区-中间-圆点按钮 */
+.ui-bannerSlider > .ui-bannerSlider-dotsNav{
+	width: 130px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.ui-bannerSlider > .ui-bannerSlider-dotsNav > .ui-bannerSlider-dot{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	background: rgba(7,17,27,0.4);
+	float: left;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px rgba(255,255,255,0.8) inset;/*CSS3属性 设置元素阴影,内置*/
+	cursor: pointer;
+}
+.ui-bannerSlider > .ui-bannerSlider-dotsNav > .ui-bannerSlider-dot-active{
+	background: #fff!important;
+	box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset!important;
+}
+.ui-bannerSlider > .ui-bannerSlider-pre{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	margin-top: -30px;
+	background-image: url('../img/banner/pre.png');
+	background-repeat:no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.ui-bannerSlider > .ui-bannerSlider-next{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -30px;
+	background-image: url('../img/banner/next.png');
+	background-repeat:no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.ui-bannerSlider > .ui-bannerSlider-pre:hover,
+.ui-bannerSlider > .ui-bannerSlider-next:hover{
+	background-color: #000;
+	opacity: 0.5;
+}

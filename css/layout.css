@@ -1,0 +1,79 @@
+/* 基本布局样式 */
+/* 清除默认样式 */
+*{
+	padding:0;
+	margin: 0;
+	font-size: 15px;
+	font-family: '微软雅黑';
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+.clearDiv{
+	clear: both;
+}
+.clear:after{
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+/* 头部 */
+.header{
+	background: #f4f5f9;
+}
+.header .top{
+	height: 45px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 25px 0 15px; 
+}
+.header .bottom{
+	height: 125px;
+	padding: 0 15px;
+}
+/* 导航栏 */
+.nav{
+	height: 48px;
+	background: #000;
+}
+/* 广告区 */
+.banner .wrap > .middle{
+	margin: 7px 3px 0 215px;
+	width: 730px;
+	height: 505px;
+	background: #ccc;
+	float: left;
+}
+.banner .wrap > .right{
+	width: 252px;
+	height: 505px;
+	margin-top: 7px;
+	display: inline-block;
+}
+/* 主内容区 */
+.main .floor .caption{
+	height: 100px;
+}
+.main .floor .content{
+	border-top: 1px solid red;
+	margin-top: -1px;
+}
+/* 友情链接区 */
+.friendLink{
+	height: 140px;
+	margin-top: 50px;
+}
+.friendLink .wrap{
+	border-top: 1px solid #ccc;
+}
+/* 页脚 */
+.footer{
+	background: #f4f5f9;
+	height: 100px;
+}
